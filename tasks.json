@@ -10,6 +10,12 @@
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
+                "-Wall",
+                "-lallegro_font",
+                "-lallegro_color",
+                "-lallegro_ttf",
+                "-lallegro_primitives", 
+                "-lallegro",
                 "-lm"
             ],
             "options": {
